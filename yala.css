@@ -108,9 +108,9 @@ li a:hover {
 .image-container-yala{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 10px;
 }
 .image-container-yala img{
     width: 400px;
-    height: 400px;
+    height: 380px;
 }
