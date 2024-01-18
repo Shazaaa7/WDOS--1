@@ -5,12 +5,10 @@ body, html{
    
    
 }
-
 .logo img {
     max-width: 7%;
     height: auto;
 }
-
 nav{
     width: 100%;
     overflow: auto;
@@ -29,14 +27,12 @@ nav ul {
     top: 0;
     position: fixed;
 }
-
 nav li {
     margin-right: 20px;
     height: 50px;
     float: left;
     padding: 20px;
 }
-
 nav a {
     text-decoration: none;
     color: black;
@@ -46,7 +42,6 @@ nav a {
     display: flex;
     
 }
-
 li a:hover {
     background-color: antiquewhite;
 }
@@ -60,7 +55,6 @@ li a:hover {
         opacity: 1;
     }
 }
-
 .wil-heading {
     position: absolute;
     top: 50%;
@@ -73,8 +67,57 @@ li a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     animation: slideIn 1s ease-out;
 }
-
 .main-image-page2 {
     width: 1270px; 
     height: 600px; 
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.bordered-paragraph {
+    border: 2px solid #0c5a1c; 
+    padding: 20px;
+    max-width: 1100px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading-center2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    font-size: 40px;
+}
+.guide-container2 {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid darkgreen;
+    border-radius: 8px;
+}
+.guide-paragraph2 {
+    line-height: 1.6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.guide-heading2 {
+    font-weight: bold;
+    color: #09a228;
+}
+.image-container-pg7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 20px auto 0; 
+    max-width: 800px; 
+    
+}
+.protected-image2{
+    width: 350px;
+    height: 200px; 
+    border: 2px solid #066b2e;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
