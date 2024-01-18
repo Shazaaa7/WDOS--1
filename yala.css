@@ -114,3 +114,28 @@ li a:hover {
     width: 400px;
     height: 350px;
 }
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+  }
