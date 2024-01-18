@@ -146,3 +146,7 @@ li a:hover {
     font-size: 20px;
     text-decoration: none;
   }
+  iframe{
+    display: block;
+    margin: 20px auto;
+}
