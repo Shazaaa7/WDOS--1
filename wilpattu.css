@@ -50,3 +50,31 @@ nav a {
 li a:hover {
     background-color: antiquewhite;
 }
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.wil-heading {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: white;   
+    font-size: 80px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: slideIn 1s ease-out;
+}
+
+.main-image-page2 {
+    width: 1270px; 
+    height: 600px; 
+}
